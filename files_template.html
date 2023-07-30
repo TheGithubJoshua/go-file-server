@@ -1,0 +1,16 @@
+<!-- files_template.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>List of Files</title>
+</head>
+<body>
+    <h1>List of Files in the Folder</h1>
+    <ul>
+        {{range .Files}}
+        <li>{{.}}</li>
+        {{end}}
+    </ul>
+</body>
+</html>

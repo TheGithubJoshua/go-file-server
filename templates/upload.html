@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+	<title>File Upload</title>
+</head>
+<body>
+	<h1 class=title>Upload a File</h1>
+	<form action="/upload" method="post" enctype="multipart/form-data">
+		<input type="file" name="file" />
+		<input type="submit" value="Upload" />
+	</form>
+  <a href="/list">List Files</a>
+</body>
+  <style>
+h1 {
+    text-align: left;
+    margin: 30px 0;
+    color: #ff8800;
+}
+</style>
+</html>
